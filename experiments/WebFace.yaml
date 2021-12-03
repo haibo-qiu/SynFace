@@ -1,0 +1,58 @@
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+DATASET:
+  IS_GRAY: false
+  LFW_CLASS: 6000
+  LFW_PAIRS: data/datasets/lfw-syn/pairs.txt
+  LFW_PATH:  data/datasets/lfw-syn/lfw-112X96/
+  NUM_CLASS: 10575
+  #SYN_ROOT: data/datasets/CASIA/CASIA-Generated-10k-100-01-MixID-Align/
+  SYN_ROOT: data/datasets/CASIA/CASIA-10k-100-01-MixID-Crop/
+  TEST_DATASET: LFW
+  TRAIN_DATASET: WebFace
+  WEBFACE_ROOT: data/datasets/CASIA/CASIA-Images-Align-112x96/
+LOSS:
+  TYPE: ArcMargin
+  WEIGHT: 1.0
+NETWORK:
+  IMAGE_SIZE:
+  - 112
+  - 96
+  PRETRAINED: ''
+  WEIGHT_MODEL: ''
+TEST:
+  BATCH_SIZE: 512
+  MODEL_FILE: ''
+  SHUFFLE: false
+  STATE: ''
+  WORKERS: 8
+TRAIN:
+  BACKBONE_MODEL: LResNet50E_IR
+  BATCH_SIZE: 512
+  END_EPOCH: 40
+  GAMMA1: 0.99
+  GAMMA2: 0.0
+  GPUS: 0,1,2,3,4,5,6,7
+  LOG_DIR: log
+  LR: 0.05
+  LR_FACTOR: 0.1
+  LR_FREEZE: 0.1
+  LR_STEP:
+  - 24
+  - 30
+  - 36
+  MODEL: LResNet50E_IR
+  MOMENTUM: 0.9
+  NESTEROV: false
+  NUM_ID: 10000
+  SAMPLES_PERID: 50
+  OPTIMIZER: sgd
+  OUTPUT_DIR: output
+  PRINT_FREQ: 100
+  RESUME: ''
+  SHUFFLE: true
+  START_EPOCH: 0
+  WD: 0.0005
+  WORKERS: 8
