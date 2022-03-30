@@ -16,20 +16,20 @@ conda env create -f environment.yml
 
 ## Data preparation
 1. Clone this repo:
-```
-git clone https://github.com/haibo-qiu/SynFace.git
-```
+    ```
+    git clone https://github.com/haibo-qiu/SynFace.git
+    ```
 2. Clone the [DiscoFaceGAN](https://github.com/microsoft/DiscoFaceGAN) and insert our files as the mixup face generator (To run [DiscoFaceGAN](https://github.com/microsoft/DiscoFaceGAN), you also need to satisfy its requirements.):
-```
-git clone https://github.com/microsoft/DiscoFaceGAN.git data/DiscoFaceGAN
-cp data/syn_factors.py data/DiscoFaceGAN/
-cp data/syn_images.py data/DiscoFaceGAN/
-```
+    ```
+    git clone https://github.com/microsoft/DiscoFaceGAN.git data/DiscoFaceGAN
+    cp data/syn_factors.py data/DiscoFaceGAN/
+    cp data/syn_images.py data/DiscoFaceGAN/
+    ```
 
 3. Generate the face images with identity mixup, following with face alignment and crop:
-```
-bash data/syn.sh
-```
+    ```
+    bash data/syn.sh
+    ```
 4. Download the real face data CASIA and LFW from [face.evoLVe](https://github.com/ZhaoJ9014/face.evoLVe#Data-Zoo) and crop with ```data/imgs_crop/face_align_crop.py```
 5. Put all these data into ```data/datasets/```
 
