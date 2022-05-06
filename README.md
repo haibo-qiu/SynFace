@@ -1,6 +1,7 @@
 # SynFace: Face Recognition with Synthetic Data
-This is the Pytorch implementation of our ICCV 2021 paper [SynFace: Face Recognition with Synthetic Data](https://arxiv.org/abs/2108.07960). 
-<br>Haibo Qiu, Baosheng Yu, Dihong Gong, Zhifeng Li, Wei Liu and Dacheng Tao<br>
+This is the Pytorch implementation of our ICCV 2021 paper
+>[SynFace: Face Recognition with Synthetic Data](https://arxiv.org/abs/2108.07960). 
+><br>Haibo Qiu, Baosheng Yu, Dihong Gong, Zhifeng Li, Wei Liu and Dacheng Tao<br>
 
 ## Requirements
 Main packages:
