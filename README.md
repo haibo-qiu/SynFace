@@ -31,7 +31,7 @@ conda env create -f environment.yml
     ```
     bash data/syn.sh
     ```
-4. Download the real face data CASIA and LFW from [face.evoLVe](https://github.com/ZhaoJ9014/face.evoLVe#Data-Zoo) and crop with ```data/imgs_crop/face_align_crop.py```
+4. Download the real face data CASIA and LFW from [this link](https://drive.google.com/drive/folders/1XTkS2Rh7Q154rwcV0MfhZ69cG10bEFDt?usp=sharing)
 5. Put all these data into ```data/datasets/```
 
 ## Training
