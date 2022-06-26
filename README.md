@@ -51,7 +51,7 @@ The code of face alignment and crop ```data/imgs_crop/``` is borrowed from [face
 
 ## Citation
 If you use our code or models in your research, please cite with:
-```
+```bibtex
 @inproceedings{qiu2021synface,
   title={SynFace: Face Recognition with Synthetic Data},
   author={Qiu, Haibo and Yu, Baosheng and Gong, Dihong and Li, Zhifeng and Liu, Wei and Tao, Dacheng},
