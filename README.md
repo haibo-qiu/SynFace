@@ -31,7 +31,7 @@ conda env create -f environment.yml
     ```
     bash data/syn.sh
     ```
-4. (Optional) Check our generated synthetic dataset via this onedirve [link](https://unisydneyedu-my.sharepoint.com/:u:/g/personal/hqiu2518_uni_sydney_edu_au/EST71RzmSUNEoM34T3WEeh4BhVcw_HmrqcK-vOWX0dmxAg).
+4. (Optional) Check our generated synthetic dataset via this google drive [link](https://drive.google.com/file/d/17bJwCYFQcm9_PoUshiYFKo5E9LYmMMDC/view).
 5. Download the real face data CASIA and LFW from [this link](https://drive.google.com/drive/folders/1XTkS2Rh7Q154rwcV0MfhZ69cG10bEFDt?usp=sharing)
 6. Put all these data into ```data/datasets/```
 
